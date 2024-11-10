@@ -12,7 +12,7 @@
         </Grid.Background>
         <Button x:Name="BtnAdd" Content="증가" HorizontalAlignment="Center" Margin="0,231,0,0" VerticalAlignment="Top" FontSize="24" Click="OnAdd" Width="246"/>
         <Button x:Name="BtnSub" Content="감소" HorizontalAlignment="Center" Margin="0,285,0,0" VerticalAlignment="Top" FontSize="24" Click="OnSub" Width="246"/>
-        <TextBlock x:Name="TxtCount" HorizontalAlignment="Center" Margin="0,93,0,0" TextWrapping="Wrap" Text="안녕하세요" VerticalAlignment="Top" Height="70" Width="246" Background="#FFEAEA64" FontSize="48" TextAlignment="Center"/>
+        <TextBlock x:Name="TxtCount" HorizontalAlignment="Center" Margin="0,93,0,0" TextWrapping="Wrap" Text="{Binding Value}" VerticalAlignment="Top" Height="70" Width="246" Background="#FFEAEA64" FontSize="48" TextAlignment="Center"/>
 
     </Grid>
 </Window>
